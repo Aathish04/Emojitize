@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+  <head>
+    <!-- Set title to EMOJITIZE -->
+    <title>EMOJITIZE</title>
+    <!-- Set Encoding to all Unicode -->
+    <meta charset = "UTF-8" />
+    <!-- Link CSS file -->
+    <link rel="stylesheet" type="text/css" href="../static/Emojistyle.css">
+    <!-- Put in a Favicon -->
+    <link rel="icon" href="../static/Images/Favicon.ico" type="image/x-icon"/>
+  </head>
+
+
+  <body>
+    <!-- Set heading to EMOJITIZE -->
+    <div class="padding"></div>
+    <div class="heading"><h1>EM😮JITIZE</h1></div>
+
+    <div class="conversionbox" id="conversionbox">
+
+      <form method="POST">
+        <h2 class="TextIn" font-size:30px>
+          <b1>Text IN:</b1>
+        </h2>
+
+        <textarea name = "TextIn" id = "TextIn" rows = "5" cols = "81">{{ TextIN }}</textarea>
+        <div class="padding2"></div>
+        <button type="submit" id="convert" name="convert">Click To Convert!</button>
+
+      </form>
+
+        <h2 class="EmojisOut">
+          <b1>Emojis OUT:</b1>
+        </h2>
+
+        <p>
+          <textarea name = "EmojisOut" id = "EmojisOut" rows = "5" cols = "81" readonly>{{ EmojisOut }}</textarea>
+        </p>
+
+    </div>
+
+  </body>
+</div>
+</html>

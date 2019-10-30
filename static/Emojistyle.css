@@ -1,0 +1,70 @@
+div.conversionbox{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: block;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 700px;
+    height: 423px;
+    background-image: url("./Images/ConversionBackground.png")
+}
+
+div.padding{
+    height: 45px
+}
+div.padding2{
+    height:20px;
+}
+div.heading{
+    max-width: 351px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    padding-top: 10px ;
+    padding-right:20px;
+    margin: 9px;
+    box-sizing: border-box;
+    resize: none;
+    overflow:auto;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    background-color: white;
+    display: block
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+html {
+    background: url("./Images/AllEmoji.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif
+  }
